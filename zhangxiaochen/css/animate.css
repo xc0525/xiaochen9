@@ -1,0 +1,152 @@
+/*1*/
+@keyframes f-1 {
+    0%{opacity: 0}
+    100%{opacity: 1}
+}
+@keyframes f-2 {
+    0%{transform: translateX(-6.4rem)}
+    100%{transform: translateX(6.4rem)}
+}
+@keyframes f-3 {
+    0%{transform: translateX(-6.4rem)}
+    100%{transform: translateX(6.4rem)}
+}
+@keyframes fv1 {
+    0%{opacity:0}
+    100%{opacity: 1}
+}
+@keyframes fv7 {
+    0%{
+        transform: translateX(-3.2rem);
+        opacity: 0 ;
+    }
+    100%{
+        transform: translateX(0rem);
+        opacity: 1    ;
+    }
+}
+@keyframes fv5 {
+    0%{
+        transform: translateX(-3.2rem);
+        opacity: 0 ;
+    }
+    100%{
+        transform: translateX(0rem);
+        opacity: 1    ;
+    }
+}
+@keyframes fv6 {
+    0%{
+        transform: translateX(6.4rem);
+        opacity: 0 ;
+    }
+    100%{
+        transform: translateX(0rem);
+        opacity: 1    ;
+    }
+}
+@keyframes fv8{
+    0%{
+        transform: translateX(6.4rem);
+        opacity: 0 ;
+    }
+    100%{
+        transform: translateX(0rem);
+        opacity: 1    ;
+    }
+}
+/*22222222   zi*/
+@keyframes p0_1{
+    0%{transform:translate(-4.4rem);
+        opacity: 0;}
+    100%{transform:translate(0rem);
+        opacity: 1;
+    }
+}
+@keyframes zuop{
+    0%{transform:translate(-4.4rem);
+        opacity: 0;}
+    100%{transform:translate(0rem);
+        opacity: 1;
+    }
+}
+@keyframes zxc{
+    0%{
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes s18 {
+    0%{
+        transform: translateX(6.4rem);
+        opacity: 0;
+
+    }
+    100%{
+        transform: translateX(0rem);
+        opacity: 1;
+    }
+}
+@keyframes p1_1 {
+    0%{transform: scale(20) ;opacity: 0;}
+    100%{transform: scale(1) ;opacity: 1}
+}
+
+
+@keyframes tu_1 {
+    0%{transform:rotate(0deg)
+    }
+    100%{transform:rotate(360deg)}
+}
+/*  ¸Ü¸Ü¸Ü*/
+@keyframes fo1 {
+    0%{opacity:0}
+    100%{opacity: 1}
+}
+@keyframes fo2 {
+    0%{opacity:0}
+    100%{opacity: 1}
+}
+@keyframes fo5 {
+    0%{
+        transform: rotate(360deg);
+        transform-origin: 0 50%;
+    }
+    100%{
+        transform: rotate(0deg);
+        transform-origin: 50% 50%;
+    }
+}
+@keyframes fo6 {
+    0%{
+        transform: rotate(-360deg);
+        transform-origin: 0 50%;
+    }
+    100%{
+        transform: rotate(0deg);
+        transform-origin: 50% 50%;
+    }
+}
+@keyframes fo7 {
+    0%{
+        transform: rotate(360deg);
+        transform-origin: 0 50%;
+    }
+    100%{
+        transform: rotate(0deg);
+        transform-origin: 50% 50%;
+    }
+}
+@keyframes fo8{
+    0%{
+        transform: rotate(-360deg);
+        transform-origin: 0 50%;
+    }
+    100%{
+        transform: rotate(0deg);
+        transform-origin: 50% 50%;
+    }
+}

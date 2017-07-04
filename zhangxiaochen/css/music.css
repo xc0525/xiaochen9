@@ -1,0 +1,43 @@
+.music-ani{animation:misic-k 5s linear infinite;}
+@keyframes misic-k {
+    0%{transform:rotateZ(0deg);}
+    100%{transform:rotateZ(360deg);}
+}
+/*“Ù¿÷Õº±Í*/
+.icon-ani{animation:icon-k 2s linear infinite;}
+@keyframes icon-k {
+    0%{transform:translateY(0rem);}
+    20%{transform:translateY(-0.1rem);}
+    100%{transform:translateY(-0.5rem);}
+}
+/*∞¥≈•Õº±Í*/
+.p1-nai{animation:p1-k 3s ease-out;}
+@keyframes p1-k {
+    0%{transform: scale(0.1);}
+    100%{transform:  scale(1.2);}
+}
+.ing1-nai{animation:ing1-k 3s ease-out;}
+@keyframes ing1-k {
+    0%{transform: rotateY(360deg);}
+    100%{transform: rotateY(0deg);}
+}
+.hao-nai{animation:hao-k 2s ease-out;}
+@keyframes hao-k {
+    0%{transform: translate(300px);}
+    100%{transform:  translate(0);}
+}
+
+.hao-nai2{animation:hao2-k 2s ease-out;}
+@keyframes hao2-k {
+    0%{transform: translate(-300px);}
+    100%{transform:  translate(0);}
+}
+
+
+
+
+
+
+
+
+

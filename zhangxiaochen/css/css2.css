@@ -1,0 +1,54 @@
+html,body{width:100%;height:100%;}
+*{margin:0;padding:0;}
+.container{width:100%;height:100%;position:relative;overflow: hidden;}
+.container>div{width:100%;height:100%;position:absolute;top:0;left:0;
+    font:0.66rem "黑体";text-align:center; perspective:800px;}
+
+.container>div:nth-child(1){background-image: url("../images/z1_bg.png")}
+.container>div:nth-child(2){background-image: url("../images/z1_bg.png");}
+.container>div:nth-child(3){background-image: url("../images/z1_bg.png")}
+.container>div:nth-child(4){background-image: url("../images/z1_bg.png")}
+.container>div:nth-child(5){background-image: url("../images/z1_bg.png")}
+
+.container>div:nth-child(1) .p1{color: white;padding-top:5rem; }
+
+.container>div:nth-child(2) img{width: 3rem;height: 3rem;
+    margin-top: 0.5rem;}
+.container>div:nth-child(2) .p2{color: white;margin-top:2rem;border: 1px solid yellow; border-radius:5rem;display: block;
+    margin-left: 1rem;
+    background-color: yellow;  }
+.container>div:nth-child(2) .p3{color: white;margin-top:0.3rem;border: 1px solid yellow; border-radius:5rem;display: block;
+    margin-left: 2rem;
+    background-color: yellow;  }
+.container>div:nth-child(2) .p4{color: white;margin-top:0.5rem;border: 1px solid yellow; border-radius:5rem;display: block;
+    margin-left: 2.2rem;
+    background-color: yellow;  }
+.container>div:nth-child(2) .p12{color: white;margin-top:0.5rem;border: 1px solid yellow; border-radius:5rem;display: block;
+    margin-left: 2.5rem;
+    background-color: yellow;  }
+
+.container>div:nth-child(3)  .p5{color: white;  padding-top: 0.5rem;}
+.container>div:nth-child(3) .p6{color: white;  padding-top: 3rem;}
+.container>div:nth-child(3) .p7{color: white;  padding-top: 0.5rem;}
+
+.container>div:nth-child(4) .p8{color: white;  padding-top: 0.5rem;}
+.container>div:nth-child(4) .p9{color: white;  margin-top: 3rem;border: 1px solid green;border-radius:5rem ;  background-color: green;display: block;  width: 3rem;  margin-left: 1rem;}
+.container>div:nth-child(4) .p10{color: white;  margin-top: 0.5rem;border: 1px solid green;border-radius:5rem ;  background-color: green;display: block;  width: 3rem;  margin-left: 2rem;}
+.container>div:nth-child(4) .p11{color: white;  margin-top: 0.5rem;border: 1px solid green;border-radius:5rem ;  background-color: green;display: block;  width: 3rem;  margin-left: 3rem;}
+
+.container>div:nth-child(5)  .p13{color: white;  padding-top: 0.5rem;}
+.container>div:nth-child(5)  .p14{color: white;  margin-top: 0.5rem;  border: 1px solid green;border-radius:5rem ;  background-color: green;display: block;  width: 3rem;  margin-left: 3.3rem;}
+.container>div:nth-child(5)  .p15{color: white;  margin-top: 0.5rem;border: 1px solid green;border-radius:5rem ;  background-color: green;display: block;  width: 3rem;  margin-left: 2.8rem;}
+.container>div:nth-child(5)  .p16{color: white;  margin-top: 0.5rem;border: 1px solid green;border-radius:5rem ;  background-color: green;display: block;  width: 3rem;  margin-left: 1.5rem;}
+.container>div:nth-child(5)  .p17{color: white;  margin-top: 0.5rem;border: 1px solid green;border-radius:5rem ;  background-color: green;display: block;  width: 3.2rem;  margin-left: 1rem;}
+.yin{display: none;}
+.xian{display: block;}
+.container .music{width:0.5rem; height:0.5rem;position:fixed;top:0.5rem;right:0.5rem;z-index: 10;}
+
+.icon{width:0.4rem;height:0.2rem;position:absolute;left:50%;margin-left:-0.2rem;bottom:1rem;}
+
+
+/*上下翻页添加样式*/
+.transtion-my{transition:transform 0.5s linear;}
+.up{transform: translateY(-100%);}
+.down{transform: translateY(100%);}

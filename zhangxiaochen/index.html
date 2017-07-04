@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <script type="text/javascript" src="newfontsize/fontsize.js"></script>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/animate.css"/>
+    <link rel="stylesheet" href="css/music.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+</head>
+<body>
+<div class="out">
+    <div class="container">
+        <img src="img/ani1_01.png" class="wai">
+    <p class="geren">个人简历</p>
+    </div>
+    <div class="down"><p id="p_0" class="p0_1">个人介绍</p>
+        <img src="img/zi.png" class="tu_1">
+        <p id="p_1" class="p1_1">学校：泊头职业学校</p>
+        <p id="p_2" class="p1_1">学院：欧美学院</p>
+        <p id="p_3" class="p1_1">专业：外部前端</p>
+        <p id="p_4" class="p1_1">姓名：张小琛</p>
+        <p id="p_5" class="p1_1">微信：q761717898</p>
+    </div>
+    <div class="down">
+        <img src="img/z6_11.png" alt="" class="s-1">
+        <p class="zuopin">业余爱好</p>
+        <img src="img/pashan.jpg" alt="" class="fv-5">
+        <img src="img/qiche.png" alt="" class="fv-6">
+        <img src="img/hua.png" alt="" class="fv-7">
+        <img src="img/lvyou.png" alt="" class="fv-8">
+    </div>
+    <div class="down">
+        <img src="img/z6_1.png" alt="" class="four-1">
+        <img src="img/beijing.png" alt="" class="four-2">
+        <p id="zuopin">作品展示</p>
+        <img src="img/ccc.jpg" alt="" class="four-5">
+        <img src="img/ggg.jpg" alt="" class="four-6">
+        <img src="img/sss.png" alt="" class="four-7">
+        <img src="img/www.png" alt="" class="four-8">
+    </div>
+    <div class="down">
+        <img src="img/z3_1-1.gif" alt="" class="f-1">
+        <img src="img/z1_2.png" alt="" class="f-2">
+        <img src="img/z1_3.png" alt="" class="f-3">
+    </div>
+    <img src="img/music.png" class="music music-ani">
+    <audio src="video/Matteo - Panama.mp3" autoplay id="audio-my" loop></audio>
+</div>
+</body>
+<script type="text/javascript" src="js/zepto.min.js"></script>
+<script type="text/javascript" src="js/touch.js"></script>
+<script>
+    var i=0;
+    $(".out>div").eq(0).siblings().children().addClass("yincang");
+    $(".out").swipeUp(function(){
+        if(i<4){
+            $(".out>div").eq(i).addClass("up");
+            $(".out>div").eq(i).children().addClass("yincang");
+            i++;
+            $(".out>div").eq(i).children().removeClass("yincang");
+            $(".out>div").eq(i).removeClass("down");
+        }
+    });
+    $(".out").swipeDown(function(){
+        if(i>0){
+            $(".out>div").eq(i).addClass("down");
+            $(".out>div").eq(i).children().addClass("yincang");
+            i--;
+            $(".out>div").eq(i).children().removeClass("yincang");
+            $(".out>div").eq(i).removeClass("up");
+        }
+    });
+    flag=0;
+    $(".container .music").tap(function(){
+        if( document.querySelector("#audio-my").paused==true)
+        {
+            document.querySelector("#audio-my").play();
+            $(".music").addClass("music-ani");
+        }
+        else{
+            document.querySelector("#audio-my").pause();
+            $(".music").removeClass("music-ani");
+        }})
+</script>
+</html>

@@ -1,0 +1,24 @@
+.pt-ToTop{
+    animation:ToTop 0.5s both;}
+@keyframes ToTop {
+    from{}
+    to{transform: translateY(-100%);}
+    }
+.pt-ToBottom{
+    animation:formBottom 0.5s both;
+ }
+@keyframes formBottom {
+    from{transform: translateY(100%);}
+    to{transform: translateY(0%);}
+    }
+/*....................向下走*/
+.cp-tobottom{ animation:tobottom 0.5s both;}
+@keyframes tobottom {
+    from{transform: translateY(0%);}
+    to{transform: translateY(100%);}/*向下*/
+}
+.cp-fromtop{ animation:fromtop 0.5s both;}
+@keyframes fromtop {
+    from{transform: translateY(-100%);}/*向上*/
+    to{transform: translateY(0%);}
+}

@@ -1,0 +1,30 @@
+.pt_totop{
+    animation: toTop 0.5s both;
+}
+@keyframes toTop {
+    from{}
+    to{transform: translateY(-100%);}
+}
+.pt_fromBottom{
+    animation: fromBottom 0.5s both;
+}
+@keyframes fromBottom {
+    from{transform: translateY(100%);}
+    to{}
+}
+
+.pt_toBottom{
+    animation: toBottom 0.5s both;
+}
+@keyframes toBottom {
+    from{transform: translateY(0);}
+    to{transform: translateY(100%);}
+}
+
+.pt_fromTop{
+    animation: fromBottbom 0.5s both;
+}
+@keyframes fromTop {
+    from{transform: translateY(-100%);}
+    to{transform: translateY(0);}
+}

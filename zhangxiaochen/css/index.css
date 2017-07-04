@@ -1,0 +1,150 @@
+*{padding:0;margin:0;}
+html,body{width:100%;height:100%;}
+.out{width:100%;height:100%;
+    position: relative;
+    overflow: hidden;
+}
+.out>div{
+    width:100%;height:100%;
+    transition: transform 0.5s linear;
+    overflow: hidden;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.out>div{background-image:url(../img/center1.jpg);
+background-size: 100% 100%;}
+.container{position:relative;width:100%;height:536px;}
+.wai{width:145px;height:148px;
+    position:absolute;left:70px;top:130px;
+    animation: zxc 3s linear infinite alternate
+}
+.geren{font:0.6rem Î¢ÈíÑÅºÚ;color:white;position:absolute;top:4.15rem;left:2rem;}
+#p_1{font:0.41rem Î¢ÈíÑÅºÚ;color:white;position:absolute;top:8.15rem;left:2rem;
+}
+#p_0{font:0.6rem Î¢ÈíÑÅºÚ;color:white;position:absolute;top:1rem;left:2rem;
+}
+.p0_1{animation:  p0_1 3s linear;
+    animation-fill-mode:both;
+    opacity: 1;}
+.p1_1{animation:  p1_1 3s linear;
+    animation-fill-mode:both;
+    opacity: 0;}
+#p_2{font:0.41rem Î¢ÈíÑÅºÚ;color:white;position:absolute;top:8.85rem;left:2rem;}
+#p_3{font:0.41rem Î¢ÈíÑÅºÚ;color:white;position:absolute;top:9.55rem;left:2rem;}
+#p_4{font:0.41rem Î¢ÈíÑÅºÚ;color:white;position:absolute;top:10.25rem;left:2rem;}
+#p_5{font:0.41rem Î¢ÈíÑÅºÚ;color:white;position:absolute;top:10.95rem;left:2rem;}
+.tu_1{width:3rem;height:4.3rem;position:absolute;top:2.4rem;left:1.6rem;border-radius:0.5rem;
+animation:  tu_1 3s linear;
+}
+#zuopin{font:0.61rem Î¢ÈíÑÅºÚ;color:white;position:absolute;top:4.4rem;left:2rem;animation:  zuop 2s linear;}
+.zuopin{font:0.61rem Î¢ÈíÑÅºÚ;color:white;position:absolute;top:4.4rem;left:2rem;animation:  zuop 2s linear;}
+.yincang{
+    display: none;
+}
+.xianshi{
+    display: block;
+}
+
+.up{
+    transform: translateY(-100%);
+}
+.down{
+    transform: translateY(100%);
+}
+
+
+.f-1{
+    width:6.4rem;height:4.58rem;
+    position: absolute;top:1.7rem;left:50%;
+    margin-left:-3.2rem;
+    animation:  f-1 3s linear;
+}
+.f-2{
+    width:6.4rem;height:0.6rem;
+    position: absolute;top:6.7rem;left:50%;
+    margin-left:-3.2rem;
+    animation:  f-2 7s linear infinite;
+}
+.f-3{
+    width:6.4rem;height:0.7rem;
+    position: absolute;top:8.2rem;left:50%;
+    margin-left:-3.2rem;
+    animation:  f-3 7s linear infinite;
+}
+.fv-5{
+    width:3.2rem;height:2.18rem;
+    position: absolute;top:5.99rem;left:0.12rem;
+    animation:  fv5 2s 2s linear;
+    opacity: 0;
+    animation-fill-mode:both;
+}
+.fv-6{
+    width:2.94rem;height:2.18rem;
+    position: absolute;top:5.99rem;left:3.4rem;
+    animation:  fv6 2s 2s linear;
+    opacity: 0;
+    animation-fill-mode:both;
+}
+.fv-7{
+    width:3.2rem;height:2.18rem;
+    position: absolute;top:8.3rem;left:0.12rem;
+    animation:  fv7 2s 2s linear;
+    opacity: 0;
+    animation-fill-mode:both;
+}
+.fv-8{
+    width:2.94rem;height:2.18rem;
+    position: absolute;top:8.3rem;left:3.4rem;
+    animation:  fv8 2s 2s linear;
+    opacity: 0;
+    animation-fill-mode:both;
+}
+.s-1{
+    width:6.4rem;height:3.24rem;
+    position: absolute;top:1rem;left:50%;
+    margin-left:-3.2rem;
+    animation:  s18 0.5s 0.5s linear;
+}
+/*2222    zi*/
+.fv-1{
+    width:6.4rem;height:3.46rem;
+    position: absolute;top:0rem;left:50%;
+    margin-left:-3.2rem;
+    animation:  fv1 3s 0.5s linear;
+}
+/*14444444*/
+.four-1{
+    width:6.4rem;height:3.62rem;
+    position: absolute;top:0;left:50%;
+    margin-left:-3.2rem;
+    animation:  fo1 3s 0.5s linear;
+}
+.four-2{
+    width:3.4rem;height:3.62rem;
+    position: absolute;top:0;left:50%;
+    margin-left:-3.2rem;
+    animation:  fo2 3s 0.5s linear;border-radius:10px;
+}
+.four-5{
+    width:2.94rem;height:1.94rem;
+    position: absolute;top:6.46rem;left:0.18rem;
+    animation:  fo5 3s 0.5s linear;
+}
+.four-6{
+    width:3rem;height:1.94rem;
+    position: absolute;top:6.46rem;left:3.25rem;
+    animation:  fo6 3s 0.5s linear;
+}
+.four-7{
+    width:2.94rem;height:2.09rem;
+    position: absolute;top:8.57rem;left:0.18rem;
+    animation:  fo7 3s 0.5s linear;
+
+}
+.four-8{
+    width:3rem;height:2.09rem;
+    position: absolute;top:8.57rem;left:3.25rem;
+    animation:  fo8 3s 0.5s linear;
+}
+

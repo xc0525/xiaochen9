@@ -1,0 +1,64 @@
+/*微音乐添加图标*/
+.music_ani
+{
+    animation: music_ani_k 5s linear infinite;
+}
+@keyframes music_ani_k {
+    0%{}
+    100%{transform: rotateZ(360deg);}
+}
+/*为每一个div添加按钮*/
+.icon_ani{
+    animation: icon_ani_k 1.2s linear infinite;
+
+}
+@keyframes icon_ani_k {
+    0%{transform: translateY(0rem);}
+    15%{transform: translateY(0.3rem);}
+    100%{transform: translateY(1rem);}
+}
+.design1
+{
+    animation: design_ani_k 1.2s 1.5s linear ;
+}
+@keyframes design_ani_k {
+    0%{transform: translateX(1rem);}
+
+    100%{transform: translateX(0rem);}
+}
+.design
+{
+    animation: design_ani1_k 1.2s 1.5s linear ;
+}
+@keyframes design_ani1_k {
+    0%{transform: translateY(-1rem);}
+
+    100%{transform: translateY(0rem);}
+}
+.people
+{
+    animation: people_ani1_k 1.2s 1.5s linear ;
+}
+@keyframes people_ani1_k {
+    0%{transform: translateX(-1rem);}
+
+    100%{transform: translateX(0rem);}
+}
+.sis{
+    animation: swws 1.2s 0.5s linear ;
+}
+@keyframes swws {
+    0%{transform: translateX(-1rem);}
+
+    100%{transform: translateX(0rem);}
+}
+
+
+.boy{
+    animation: bbi 1.2s 0.5s linear ;
+}
+@keyframes bbi {
+    0%{transform: translateX(-1rem);}
+
+    100%{transform: translateX(0rem);}
+}
